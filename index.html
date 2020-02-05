@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Esta página es creada como parte del proyecto de cátedra de la materia
+    de "Lenguajes de Marcado y Estilo, Diseño Web y Gestores de Contenido"
+    del Ciclo I 2020 de la Universidad Don Bosco. Grupo 04. Presentan:
+    Verónica Azucena Abrego Rivas, Víctor José Ayala Zelaya, 
+    René Gustavo López Soto, Rodrigo Alexander Miranda Ramírez,
+    Bryan Anderson Pineda Reyes y Rigoberto Alcides Villalta.
+    Tema: "Cine"
+  -->
+  <title>Cine Clásico</title>
+  <link rel="stylesheet" href="css/bootstrap_flaty_cine.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#"><span class="H1 text-warning">Cine Clásico</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+      aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cartelera</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Próximamente</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Dulcería</a>
+          </li>
+          <li class="nav-item dropdown show">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="true">Más</a>
+            <div class="dropdown-menu" x-placement="bottom-start"
+              style="position: absolute; transform: translate3d(0px, 41px, 0px); top: 0px; left: 0px; will-change: transform;">
+              <a class="dropdown-item" href="#">Contáctanos</a>
+              <a class="dropdown-item" href="#">Sobre Nosotros</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Galería de imágenes</a>
+            </div>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Buscar películas">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+      </div>
+  </nav>
+  <div class="container">
+    <h1>Cuerpo del página</h1>
+    <p>Esta zona es destinada al cuerpo de cada página</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo aliquam praesentium corrupti rerum deserunt, quos natus porro saepe tenetur blanditiis, cupiditate voluptate. Deleniti, dolorem! Error omnis quis quam nesciunt ducimus.</p>
+
+
+  </div>
+
+  <footer class="container-fluid bg-primary">
+    <div class="row">
+      <div class="col-12 col-md-6 ">
+        <p class="modal-body text-white ">Cine Clásico. Av. La Asunción #1505, San Salvador.<br>
+          Tel: 2222-2222, email: info@cineclasico.com.sv</p>
+      </div>
+      <div class="col-12 col-md-6">
+        <ul class="list-inline modal-body">
+        <span class="text-white">Siguenos en: </span><br>
+          <li class="list-inline-item"><a href="#"> <i class="fa fa-facebook-square"></i> Facebook</a></li class="list-inline-item">
+          <li class="list-inline-item"><a href="#"> <i class="fa fa-twitter"></i> Twitter</a></li>
+          <li class="list-inline-item"><a href="#"> <i class="fa fa-instagram"></i> Instagram</a></li>
+          <li class="list-inline-item"><a href="#"> <i class="fa fa-youtube-play"></i> Youtube</a></li>
+          <li class="list-inline-item"><a href="#"> <i class="fa fa-newspaper-o"></i> Nuestro Blog.</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- OJO: La documentación de Bootstrap explicitamente dicta que los srcipts
+        de Javasscript van al final del cuerpo, no poner nada abajo de esto,
+        todo el contenido de la página debe ir arriba de este comentario -->
+  <script src="js/jquery-3.4.1.slim.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
