@@ -1,0 +1,18 @@
+/*
+Hoja de estilos creada para estilos personalizados de la página de cine
+OJO: no sobreescribir en esta hoja estilos de Bootstrap, para ello
+hacerlo en la hoja de Bootstrap y comentarlo.
+Código por:
+Verónica Azucena Abrego Rivas, Víctor José Ayala Zelaya, 
+René Gustavo López Soto, Rodrigo Alexander Miranda Ramírez,
+Bryan Anderson Pineda Reyes y Rigoberto Alcides Villalta,
+como parte del proyecto de cátedra de la materia
+de "Lenguajes de Marcado y Estilo, Diseño Web y Gestores de Contenido"
+del Ciclo I 2020 de la Universidad Don Bosco. Grupo 04.
+*/
+
+.card-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
