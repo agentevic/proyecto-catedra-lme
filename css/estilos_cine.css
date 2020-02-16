@@ -1,7 +1,6 @@
 /*
 Hoja de estilos creada para estilos personalizados de la página de cine
-OJO: no sobreescribir en esta hoja estilos de Bootstrap, para ello
-hacerlo en la hoja de Bootstrap y comentarlo.
+OJO: si se sobreescribe  estilos de Bootstrap, dejar comentado
 Código por:
 Verónica Azucena Abrego Rivas, Víctor José Ayala Zelaya, 
 René Gustavo López Soto, Rodrigo Alexander Miranda Ramírez,
@@ -11,8 +10,22 @@ de "Lenguajes de Marcado y Estilo, Diseño Web y Gestores de Contenido"
 del Ciclo I 2020 de la Universidad Don Bosco. Grupo 04.
 */
 
+/* 
+hacer que las imagenes dentro de 
+las cards sean responsivas, mantengan proporción
+y ocupen todo el ancho
+Sobreescrito de bootstrap
+*/
 .card-image {
   width: 100%;
   height: auto;
   display: block;
+}
+
+/* 
+Para que los enlaces queden en blanco en
+los trailers de la películas.
+*/
+button>a.trailers {
+  color: white;
 }
