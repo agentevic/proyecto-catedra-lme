@@ -66,72 +66,84 @@
     </div>
   </nav>
 
-  <!-- Galería de Imágenes -->
+ <!--Cuerpo de página desde aquí -->
 
-  <div class="container">
+ <!-- Sección de contacto, formulario -->
 
-    <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Galería de imágenes.</h1>
-    <p>Frecuentemente publicamos imágenes de las mejores películas de todos los tiempos para el deleite de todos los cinéfilos.</p>
-  
-    <hr class="mt-2 mb-5">
-  
-    <div class="row text-center text-lg-left">
-  
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-muted text-center mb-4">
-        Bonnie and Clyde (1967)<br>
-        <img class="img-fluid img-thumbnail" src="fotos/Galeria/001_Bonnie_clyde.jpg" alt="Imagen de película Bonnie And Clyde">
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-muted text-center mb-4">
-        Doctor Zhivago (1965)<br>
-        <img class="img-fluid img-thumbnail" src="fotos/Galeria/002_doctor_zhivago.jpg" alt="Imagen de película Doctor Zhivago">
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-muted text-center mb-4">
-        Up (2009)<br>
-        <img class="img-fluid img-thumbnail" src="fotos/Galeria/003_up.jpg" alt="Imagen de película Up">
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-muted text-center mb-4">
-        Corazón Valiente (1995)<br>
-        <img class="img-fluid img-thumbnail" src="fotos/Galeria/004_corazon_valiente.jpg" alt="Imagen de película Corazón Valiente">
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-muted text-center mb-4">
-        El Señor de Los Anillos (2003)<br>
-        <img class="img-fluid img-thumbnail" src="fotos/Galeria/005_senor_anillos.jpg" alt="Imagen de película El señor de los Anillos">
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-muted text-center mb-4">
-        Nido de ratas (1954)<br>
-        <img class="img-fluid img-thumbnail" src="fotos/Galeria/006_nido_de_rata.jpg" alt="Imagen de película Nido de Ratas">
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-muted text-center mb-4">
-        Los hombres del presidente (1976)<br>
-        <img class="img-fluid img-thumbnail" src="fotos/Galeria/007_todos-los-hombres-del-presidente.jpg" alt="Imagen de película Todos los hombres del presidente">
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-muted text-center mb-4">
-        Gladiador (2000)<br>
-        <img class="img-fluid img-thumbnail" src="fotos/Galeria/008_Gladiador.jpg" alt="Imagen de película Gladiador">
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-muted text-center mb-4">
-        Avatar (2009)<br>
-        <img class="img-fluid img-thumbnail" src="fotos/Galeria/009_Avatar.jpg" alt="Imagen de película Avatar">
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-muted text-center mb-4">
-        El Rey León (1994)<br>
-        <img class="img-fluid img-thumbnail" src="fotos/Galeria/010_el_rey_leon.jpg" alt="Imagen de película El Rey León">
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-muted text-center mb-4">
-        Forrest Gump (1994)<br>
-        <img class="img-fluid img-thumbnail" src="fotos/Galeria/011_forrest-gump.jpg" alt="Imagen de película Furrest Gump">
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-muted text-center mb-4">
-        El Silencio de los Inocentes (1991)<br>
-        <img class="img-fluid img-thumbnail" src="fotos/Galeria/012_silencio-inocentes.jpg" alt="Imagen de película El Silencio de los Inocentes">
-      </div>
-    </div>
-  
+ <div class="container">
+   <div class="row justify-content-center align-items-center">
+    <form class="col-12 col-md-6 mt-4 mb-4">
+      <fieldset>
+        <legend>Formulario de contacto.</legend>
+        <p>Cualquier duda o sugerencia es bienvenida. Por favor llena el siguiente formulario y atenderemos tu consulta a la brevedad posible. También puede contactarnos en nuestra redes sociales o por teléfono.</p>
+        <div class="form-group">
+          <label for="correoElectronico">Correo Electrónico</label>
+          <input type="email" class="form-control" id="correoElectronico" placeholder="Ingrese su correo electrónico">
+          <small id="ayudaCorreo" class="form-text text-muted">En ningún caso compartiremos su correo con terceros.</small>
+        </div>
+        <div class="form-group">
+          <label for="seleccionCosulta">Sobre que tema es su consulta o sugerencia.</label>
+          <select class="form-control" id="eleccionCosulta">
+            <option>Cartelera</option>
+            <option>Funciones para instituciones</option>
+            <option>Atención al público</option>
+            <option>Sitio Web</option>
+            <option>Otro</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="textoConsulta">Ingrese su consulta o sugerencia</label>
+          <textarea class="form-control" id="textoConsulta" rows="3"></textarea>
+        </div>
+        <fieldset class="form-group">
+          <label>Desea ser contactado por nuestro equipo de atención al cliente</label>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="opcionesRadio" id="opcionSi" value="opcionSi" checked="">
+              Si
+            </label>
+          </div>
+          <div class="form-check">
+          <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="opcionesRadio" id="opcionNo" value="opcionNo">
+              No
+            </label>
+          </div>  
+        </fieldset>
+        <fieldset class="form-group">
+          <label>Desea recibir información y promociones por correo electrónico</label>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" value="" checked="">
+              Seguro, quiero saber de promociones.
+            </label>
+          </div>
+        </fieldset>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </fieldset>
+    </form>
+   </div>
+ </div>
+
+ <!-- Final de sección de contacto -->
+
+ <!--Google map-->
+ <div class="container mt-5 mb-4">
+  <div class="row justify-content-center align-items-center">
+    <h4>Ubicación:</h4>
   </div>
+  <div class="row justify-content-center align-items-center">
+   <p>Para acceder a nuestra sala de cine, facilitamos la Ubicación a través de Google Maps:</p>
+  </div>
+   <div class="row justify-content-center align-items-center">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.730961827194!2d-89.23923368586894!3d13.674116502774698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6331ce2110a5c5%3A0x909b267654c5c9d3!2sDon%20Bosco%20University%2C%20Campus%20of%20Graduate%20Studies!5e0!3m2!1sen!2ssv!4v1583447345724!5m2!1sen!2ssv" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+  </div>
+ </div>
 
-  <!-- Fin de galería de imágenes-->
+<!--Google Maps-->
 
-  
+ <!-- Finaliza cuerpo de página -->
+
   <!-- Pie de página,
     no modificar porque debe ser el mismo en todas las páginas-->
   <footer class="container-fluid bg-primary">

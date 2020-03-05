@@ -29,3 +29,21 @@ los trailers de la películas.
 button>a.trailers {
   color: white;
 }
+
+/* 
+Contenedor para Google Maps
+*/
+
+.map-container{
+  overflow:hidden;
+  position:relative;
+  height:0;
+  }
+  
+  .map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
