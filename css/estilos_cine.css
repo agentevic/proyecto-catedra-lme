@@ -22,6 +22,7 @@ Sobreescrito de bootstrap
   display: block;
 }
 
+
 /* 
 Para que los enlaces queden en blanco en
 los trailers de la películas.
@@ -46,4 +47,9 @@ Contenedor para Google Maps
   height:100%;
   width:100%;
   position:absolute;
+  }
+
+  .foto-creadores {
+    max-width: 70%;
+    margin: auto;
   }
